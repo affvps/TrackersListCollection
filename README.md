@@ -9,7 +9,7 @@ Updated daily! A list of popular BitTorrent Trackers. **If you feel good, please
 
 Integrated the popular Tracker, after filtering, finally got a high-quality Tracker list collection ~  
 
-> 「[简体中文](https://github.com/XIU2/TrackersListCollection/blob/master/README-ZH.md)」([trackerslist.com](https://trackerslist.com) 访客，请通过右上角切换语言 ↗)  
+> 「[简体中文](https://github.com/XIU2/TrackersListCollection/blob/master/README-ZH.md)」(位于 [trackerslist.com](https://trackerslist.com/#/zh) 的访客，可通过右上角切换语言 ↗)  
 
 **** 
 
@@ -17,41 +17,38 @@ Integrated the popular Tracker, after filtering, finally got a high-quality Trac
 
 Tracker is a necessary role in BT download, it can effectively improve BT download speed.  
 
-> Record user information downloading the same resource to help you establish connections with other users.  
+> Record user information that downloads the same resource to **help you connect with other users**.  
 
-The more people use Tracker, the faster the BT download speed, **so please recommend it to your friends!**  
+_The figure below shows the BT download speed after using Tracker. (all.txt)_  
 
-_The figure below shows the BT download speed after using Tracker. (ALL Tracker list)_  
+![BitComet](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-01.png)
+![qBittorrentEE](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-02.png)
 
-![BitComet](https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-01.png)
-![qBittorrentEE](https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-02.png)
-
-_Those who are interested can download and try **[ubuntu-20.04.torrent](https://releases.ubuntu.com/20.04/ubuntu-20.04.3-desktop-amd64.iso.torrent)** , this resource has thousands of people worldwide to provide uploads , So most people download fast!_
+_You can judge whether there is a problem with the BT configuration and network by observing the download speed of [**ubuntu.torrent**](https://releases.ubuntu.com/20.04/ubuntu-20.04.4-desktop-amd64.iso.torrent). There are many users of this popular resource, and the download speed should be very fast under normal circumstances._
 
 ****
 
-### Updated: 2021-10-20
+### Updated: 2022-11-03
 
-_These lists are updated every 8 hours !_
-
-- **BEST Tracker list:** (103 trackers)  
- _**https://trackerslist.com/best.txt**_  
-- **ALL Tracker list:** (226 trackers)  
- _**https://trackerslist.com/all.txt**_  
-- **HTTP(S) Tracker list:** (93 trackers)  
- _**https://trackerslist.com/http.txt**_  
+- **BEST Tracker list:** (119 trackers)  
+ _**[https://trackerslist.../best.txt](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/best.txt)**_  
+- **ALL Tracker list:** (199 trackers)  
+ _**[https://trackerslist.../all.txt](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt)**_  
+- **HTTP(S) Tracker list:** (69 trackers)  
+ _**[https://trackerslist.../http.txt](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/http.txt)**_  
 
 <details>
 <summary><strong><code>[Click to expand] - View alternate address</code></strong></summary>
 
 ****
 
-- **BEST Tracker list:**  
- _**https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/best.txt**_  
-- **ALL Tracker list:**  
- _**https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt**_  
-- **HTTP(S) Tracker list:**  
- _**https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/http.txt**_  
+\# **The following is an example of the complete list `all.txt` (modify the file name as needed):**  
+
+- _**https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt**_  
+- _**https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt**_  
+- _**https://gcore.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt**_  
+- _**https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt**_  
+- _**https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt**_  
 
 </details>
 
@@ -64,21 +61,15 @@ _These lists are updated every 8 hours !_
 <details>
 <summary><strong><code>[Click to expand] - View the tracker list in Aria2 format</code> </strong></summary>
 
-- **BEST Tracker list:**  
- _**[https://trackerslist.com/best_aria2.txt](https://trackerslist.com/best_aria2.txt)**_  
- _**[https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/best_aria2.txt](https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/best_aria2.txt)**_  
-- **ALL Tracker list:**  
- _**[https://trackerslist.com/all_aria2.txt](https://trackerslist.com/all_aria2.txt)**_  
- _**[https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/all_aria2.txt](https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/all_aria2.txt)**_  
-- **HTTP(S) Tracker list:**  
- _**[https://trackerslist.com/http_aria2.txt](https://trackerslist.com/http_aria2.txt)**_  
-  _**[https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/http_aria2.txt](https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/http_aria2.txt)**_  
+- _**[https://trackerslist.../best_aria2.txt](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/best_aria2.txt)**_  
+- _**[https://trackerslist.../all_aria2.txt](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all_aria2.txt)**_  
+- _**[https://trackerslist.../http_aria2.txt](https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/http_aria2.txt)**_  
 
 </details>
 
 After copying the contents of the Aria2 Format Tracker file, paste it into the `bt-tracker=` tail in the `aria2.conf` configuration file. Example:
 ``` ini
-bt-tracker=http://xxx.xx:80/announce,udp://yyy.yy:80/announce
+bt-tracker=http://aaa.aa:80/announce,udp://bbb.bb:80/announce
 ```
 > **Note:** Please delete the old Tracker content before pasting to avoid formatting errors!
 
@@ -88,7 +79,7 @@ bt-tracker=http://xxx.xx:80/announce,udp://yyy.yy:80/announce
 
 > <small>_**http://www.bitcomet.com**_</small>
 
-<img src="https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-10.png" width="70%">
+<img src="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-10.png" width="50%">
 
 ****
 
@@ -99,7 +90,7 @@ bt-tracker=http://xxx.xx:80/announce,udp://yyy.yy:80/announce
 
 After saving the settings, be sure to **restart qBittorrent Enhanced Edition.**
 
-<img src="https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-11.png" width="70%">
+<img src="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-11.png" width="50%">
 
 ****
 
@@ -107,7 +98,7 @@ After saving the settings, be sure to **restart qBittorrent Enhanced Edition.**
 
 > <small>_**https://www.qbittorrent.org**_</small>
 
-<img src="https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-12.png" width="70%">
+<img src="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-12.png" width="50%">
 
 ****
 
@@ -115,15 +106,15 @@ After saving the settings, be sure to **restart qBittorrent Enhanced Edition.**
 
 > <small>_**https://motrix.app**_</small>
 
-<img src="https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-13.png" width="70%">
+<img src="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-13.png" width="50%">
 
 ****
 
-#### Xdown:
+#### File Centipede:
 
-> <small>_**https://xdown.org**_</small>
+> <small>_**http://www.filecxx.com**_</small>
 
-<img src="https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/img/en-14.png" width="70%">
+<img src="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/img/en-14.png" width="50%">
 
 ****
 
@@ -138,12 +129,6 @@ This project brings together the following list of public trackers:
 * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
 
 Thanks for these projects!
-
-****
-
-### Contribute
-
-* Do you know more public trackers list? (E.g: ngosang/trackerslist) -> <kbd>[Open a new issue](https://github.com/XIU2/TrackersListCollection/issues/new)</kbd>
 
 ****
 
